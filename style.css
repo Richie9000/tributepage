@@ -1,19 +1,29 @@
-#main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8e4ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#image{
-    display: block;
-    max-width: 100%;
-    height: auto;
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-#story-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
+#story-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  background-color: #fcf6bd;
+}
+#para {
+  opacity: 1;
+  color: #272727;
+}
+#title {
+  color: #048a81;
 }
