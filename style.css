@@ -1,29 +1,46 @@
 #main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #d8e4ff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8e4ff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #image {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 40%;
+}
+
+#img-caption {
+    text-align: center;
 }
 
 #story-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 800px;
-  background-color: #fcf6bd;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    background-color: #fcf6bd;
 }
+
 #para {
-  opacity: 1;
-  color: #272727;
+    opacity: 1;
+    color: #272727;
 }
+
 #title {
-  color: #048a81;
+    text-align: center;
+    color: #048a81;
 }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
