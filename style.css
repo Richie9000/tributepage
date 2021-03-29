@@ -4,3 +4,16 @@
     justify-content: center;
     align-items: center;
 }
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#story-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
